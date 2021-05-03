@@ -7,7 +7,7 @@ const dev = process.env.NODE_ENV !== 'production'
 const nextApp = next({ dev })
 const nextHandler = nextApp.getRequestHandler()
 
-let port = 80
+let port = 90
 
 let answers = {};
 
